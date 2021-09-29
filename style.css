@@ -1,0 +1,85 @@
+*{
+margin: 0;
+
+}
+body{
+background-color: #808080;
+}
+header{
+width:100%;
+background-color:#696969;
+height:80px;
+}
+li{
+list-style: none;
+color: white;
+
+}
+footer{
+width:100%;
+background-color:#DCDCDC;
+padding: 0px;
+height: 60px;
+text-align: center;
+
+}
+
+#logotip{
+float:left;
+margin: 10px;
+width:60px;
+height:60px;
+
+}
+#logotiptext{
+background-color:#C0C0C0;
+padding:10px;
+}
+#glavnoe{
+text-align: left;
+max-width:1900px;
+margin: 0 auto;
+margin-top:0px;
+padding:10px
+}
+#dota2{
+text-align: center;
+max-width:800px;
+background-color:#ccc;
+margin: auto;
+margin-top:20px;
+padding:10px;
+
+}
+.horo{
+text-align: center;
+max-width:800px;
+background-color:#F5F5DC;
+margin:auto;
+margin-top:20px;
+padding:10px;
+
+
+}
+.ramka{
+text-align: center;
+border: 2px dashed black;
+max-width:900px;
+margin:auto;
+margin-top:15px;
+padding:10px;
+}
+
+.nechet{
+background-color:#FFFAF0;
+}
+.chet{
+background-color:#696969;
+}
+.zheski{
+background-color:#A0522D;
+}
+#copywrite{
+margin-top: 60px;
+
+}

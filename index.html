@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson</title>
+</head>
+<body>
+<header>
+<div>
+<img id ="logotip" src="https://i.pinimg.com/564x/e9/d7/34/e9d734918da5641d44e1c7896dd42076.jpg" alt="logo" />
+<div id="logotiptext"><h1>My pretty sadness</h1></div>
+</div>
+</header>
+<main>
+<div id="glavnoe">
+<nav>
+<a title="Вы уже находитесь на главной странице">Главная страница</a> |
+<a href="file.html" title="Тыкните, если хотите узнать)">Страница с нашими проектами</a> |
+<a href="" title="Все о проекте">О нашем проекте</a>
+</nav>
+</div>
+<map name="map">
+<area shape="circle" coords="45,55,15" href="https://www.livelib.ru/">
+<area shape="rect" coords="135,39, 245,35" href="https://www.kinopoisk.ru/">
+</map>
+<ol>
+<div id="dota2">
+<li><a href="http//example.com/">Абсолютная гиперссылка на сайт example.com</a><p></li>
+<li><a href="https://example.com/">Абсолютная гиперссылка на сайт example.com в протоколе https</a><p></li>
+<li><a href="ftp://новый 1/file.txt">Ссылка на файл fpt без авторизации</a><p></li>
+<li><a href="ftp://user:password@kubsu.ru/новый 1/file.txt">Сылка на файл fpt c авторизацией</a><p></li>
+<li><a href="https://www.kubsu.ru/ru/university/#zone-postscript">Ссылка на фрагмент страницы некоторого сайта</a></li>
+<li><a href="#str">Ссылка на фрагмент текущей страницы;</a></li>
+<li><a href="https://www.dns-shop.ru/catalog/17a8943716404e77/monitory/?brand=lg&stock=0">Ссылка с двумя параментрами url</a></li>
+<li>
+<nav>
+<a href="index.html" title="новый 1"> новый 1 1</a> | <a href="новый 3.html" title="новый 2"> Новый 2 </a> | <a href="новый 3.html" title="Новый 3"> новый 3 </a>
+</nav>
+</li>
+<li><a href="#hyper"title="Блок с гиперссылками">Ссылка на блок с гиперссылками</a></li>
+<li><a title="Это ссылка заглушка">Ссылка без href(ссылка заглушка)</a></li>
+<li><a href="">Ссылка с пустым href</a></li>
+<li><a href="https://vk.com" rel="nofollow">Ссылка по которой запрещён переход поисковикам</a></li>
+<li><noindex><a href="https://www.youtube.com/">Ссылка запрёщенная для индексации поисковиками</a></noindex>
+<li><p>Пример контекстной ссылки в тексте <a href="https://ru.wikipedia.org/wiki/Абзац"> абзаца.</a></p></li>
+<li><a href="https://kubsu.ru/"><img src="https://avt-21.foto.mail.ru/mail/stefaanmod/_avatar180?" width="200" height="200" alt="Кубгу"></a></li>
+<li><img src="https://avt-21.foto.mail.ru/mail/stefaanmod/_avatar180?" width="300" height="300" usemap="#map" alt="Навигация"></li>
+<li><a href="новый 2.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+<li><a href="about/новый 4.html">Относительная ссылка на страницу в каталоге about</a></li>
+<li><a href="../Каталог на 1 выше/новый 5.html">Относительная ссылка на страницу в каталоге на уровень выше текущего</a></li>
+<li><a href="../../Каталог на 2 выше/новый 6.html">Относительная ссылка на страницу в каталоге на 2 уровня выше</a></li>
+<li><a href="новый 1.html">Сокращенную на главную страницу</a></li>
+<li><a href="новый 2.html">Сокращенную ссылку на внутреннюю</a></li>
+</ol>
+</div>
+
+<div class="horo">
+<h1 id="main">Форма HTML</h1>
+<form action="/" method="post">
+Поле для ввода имени:
+<input type="text" placeholder="Введите имя" name="name" required>
+<br>
+Поле для ввода email:
+<input type="email" name="email" placeholder="Ваш email">
+<br>
+Укажите дату вашего рождения:
+<input type="date"
+name="Birthday" value="2000-01-01">
+<br>
+Укажите ваш пол:
+<label>
+<input type="radio" name="male" value="male">
+Мужчина
+</label>
+<label>
+<input type="radio" name="male" value="female">
+Женщина
+</label>
+<br>
+</form>
+<form action="/" method="post">
+Колличество конечностей
+<input type="radio" name="legs" value="1"> 1
+<input type="radio" name="legs" value="2"> 2
+<input type="radio" name="legs" value="3"> 3
+<input type="radio" name="legs" value="4"> 4
+</form>
+<form action="/" method="post">
+Сверхспособности
+<select name="power" multiple="multiple">
+<option value="z">Бессмертие</option>
+<option value="z2">Прохождение сквозь стены</option>
+<option value="z3">Левитация</option>
+</select>
+</form>
+<br>
+<form action="/" method="post">
+Ваша биография:
+<textarea name="biography" placeholder="Ваша биография"></textarea>
+</form>
+<br>
+<form action="/" method="post">
+<label>
+<input type="checkbox" name="check-1">
+С контрактом ознакомлен(а)
+</label>
+<br>
+<label>
+<input type="submit" value="Отправить">
+</label>
+</form>
+</div>
+</main>
+
+<div>
+<table class="ramka">
+<tr class="nechet">
+<td colspan="3">Список машин: </td>
+</tr>
+
+<tr class="zheski">
+<td>Модель: </td>
+<td>Цена: </td>
+</tr>
+<tr class="nechet">
+<td>M8 Competition</td>
+<td>15 997 800</td>
+</tr>
+<tr class="chet">
+<td>S-Класса Mercedes-Maybach</td>
+<td>20 000 000</td>
+</tr>
+<tr class="nechet">
+<td>Буханка 452</td>
+<td>600 000</td>
+</tr>
+<tr class="chet">
+<td>Camry</td>
+<td>2 800 000</td>
+</tr>
+<tr class="nechet">
+<td> Lada 2114</td>
+<td>99 999</td>
+</tr>
+
+</table>
+</div> 
+<footer>
+<div>
+<p><span id="copywrite"> Evgenii Karmanov </span></p>
+</div>
+</footer>
+</body>
+</html>
